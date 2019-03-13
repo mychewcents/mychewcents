@@ -1,2 +1,5 @@
-# mychewcents.github.io
-Website Design for mychewcents.me
+# mychewcents
+
+Email: akarsh@mychewcents.me
+
+Website: Coming Up!
