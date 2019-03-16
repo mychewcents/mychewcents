@@ -2,6 +2,10 @@
     background-color: black;
 }
 
-.text-color-white {
+.text-white {
     color: white;
+}
+
+.height-5 {
+    height: 5em;
 }
