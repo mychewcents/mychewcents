@@ -37,3 +37,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+$(document).ready(function () {
+    $(this).scrollTop(0);
+});
