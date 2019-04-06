@@ -167,26 +167,12 @@
     scroll-behavior: smooth;
 }
 
-.background_black {
-    background-color: black;
-}
-
-#skewed {
-    
-}
-
 #travel:hover{
     width: 100%;
     transition: width .5s ease-in-out;
 }
 
 .navbar {
-}
-
-
-
-.text-white {
-    color: white;
 }
 
 .height-5em {
@@ -204,5 +190,5 @@
 }
 
 .oswald {
-    font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
