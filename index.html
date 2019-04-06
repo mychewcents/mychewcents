@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>mychewcents - Akarsh Agarwal</title>
+        <title>mychewcents | Akarsh Agarwal</title>
 
         <!-- Boostrap v4.3.1 CSS -->
         <!-- Font Awesome -->
@@ -12,10 +12,15 @@
         
         <!-- Custom File - CSS -->
         <link rel="stylesheet" href="index.css">
+        <!-- Google Lobster Font -->
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
         <!-- Bootstrap v4.3.1 JS -->
         <!-- JQuery -->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.js"></script>
+        
         <!-- Bootstrap tooltips -->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
         <!-- Bootstrap core JavaScript -->
@@ -26,78 +31,338 @@
     </head>
 
     <body>
-        <div class="container-fluid">
-            <div id="landing" class="row background-black">
-                <div class="col-lg-12">
-                    <div class="row background_black" style="height: 30%"></div>
-                    <div class="row justify-content-center background_black text-white" style="height: 70%">
-                        <div class="animated fadeIn slow">
-                            <div class="display-3 text-center">Hi !</div>
-                            <br>
-                            <div class="display-2 text-center">I'm Akarsh Agarwal.</div>
-                            <br>
-                            <div class="display-4 text-center">akarsh@mychewcents.me</div>
-                            <br>
-                            <div class="display-5 text-center">Website in Progress!</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- <div id="header" class="sticky-top row background_black height-5">
-                <div class="col-lg-12">
-                    <div class="row justify-content-center">
-                        <div class="display-4 text-white">
+        <div class="container-fluid" style="padding: 0px">
+            <!-- <div id="landing" class="h-100"> -->
+                    <!-- <div class="row" style="height: 30%"></div>
+                    <div id="header-navbar" class="row sticky-top">
+                    <div class="col-lg-12 text-center">
+                            <p class="display-4 text-black lobster">
                                 mychewcents
+                            </p>
+                    </div> 
+                </div> -->
+                <div class="row smooth-edges animated fadeIn" id="landing_outer_main">                    
+                    <div class="col-md-12 smooth-edges" id="landing_inner_main" style="padding: 0px;">
+                            <div class="mask flex-center rgba-black-light" style="padding: 0px; width: 100%;">
+                                <div class="row text-white" style="width: 100%">
+                                    <div class="col-sm-12 animated fadeIn slow">
+                                        <div class="row" style="height: 55%"></div>
+                                        <div class="h1-responsive text-center">Hey!</div>
+                                        <br />
+                                        <p class="display-2 text-center">
+                                            I'm Akarsh Agarwal.
+                                        </p>
+                                        <hr />
+                                        <!-- <h1 class="display-5 text-center">What would you like to know about me?</h1> -->
+                                        <br />
+                                        <div class="row">
+                                            <div class="offset-md-3 col-md-2">
+                                                <a class="btn col-12" href="#skew_outer_1" style="background: rgba(255,255,255,.40)"> 
+                                                    <div class="h3-responsive">Developer</div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <a class="btn col-12" href="#skew_outer_2" style="background: rgba(255,255,255,.40)">
+                                                    <div class="h3-responsive">Traveler</div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <a class="btn col-12" href="#skew_outer_3" style="background: rgba(255,255,255,.40)">
+                                                    <div class="h3-responsive">Writer</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                     </div>
                 </div>
-            </div>
 
-            <div id="content" class="row">
-                Hello
-            </div>
+                <!-- Developer Section -->
+                <div class="row smooth-edges" id="skew_outer_1">
+                    <div class="mask rgba-white-light" style="padding: 0px; width: 100%;">
+                        <div class="offset-lg-2 col-lg-8" id="skew_inner_1">
+                            <div class="col-md-12 z-depth-3 wow animated fadeInUp" style="padding: 0px">
+                                <div class="view">
+                                    <img src="./assets/developer-blog-header.jpg" class="img-fluid" alt="placeholder">
+                                    <div class="mask flex-center rgba-black-light" style="padding: 0px; width: 100%; height: 100%;">
+                                        <p class="display-4 text-white">
+                                            <strong>Software Developer</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
-            <div id="header" class="row background_black height-5">
-                <div class="col-lg-12">
-                    <div class="row justify-content-center">
-                        <blockquote class="blockquote text-muted">
-                            <p class="display-4 text-white">
-                                akarsh@mychewcents.me
-                            </p>
-                        </blockquote>
+                            <div class="row">
+                                <!-- Writer  -->
+                                <div class="col-lg-4 col-xs-12 wow animated fadeInLeft" style="margin-top: 30px;">
+                                    <div class="card align-middle">
+                                        <img class="card-img-top" src="./assets/travel-carousel-2.JPG" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h3 class="card-title">
+                                                <strong>Technical Writer</strong>
+                                            </h3>
+                                            <h5>
+                                                <strong>Hyperledger Fabric</strong>
+                                            </h5>
+                                            <div class="card-text">
+                                                Writing on Medium.com (60k+ views) from 2018 on topics related to
+                                                Blockchain to help people ease their entry into Hyperledger Fabric Space.
+                                            </div>
+                                            <div class="card-footer" style="border-top: 0px; background-color: white">
+                                                <a class="btn btn-purple" href="https://medium.com/@mychewcents">Visit</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Team Manager -->
+                                <div class="col-lg-4 col-xs-12 wow animated fadeInUp" style="margin-top: 30px;">
+                                    <div class="card align-middle">
+                                        <img class="card-img-top" src="./assets/developer-carousel-1.JPG" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h3 class="card-title">
+                                                <strong>Blockchain Team Lead</strong>
+                                            </h3>
+                                            <h5>
+                                                <strong>Coral Blockchain, USA</strong>
+                                            </h5>
+                                            <div class="card-text">
+                                                Working with a team of Experts from various domains to develop solutions 
+                                                for our clients, ranging from Govts to Companies and Startups.
+                                            </div>
+                                            <div class="card-footer" style="border-top: 0px; background-color: white">
+                                                <a class="btn btn-purple" href="https://coralblockchain.io">Visit</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Speaker -->
+                                <div class="col-lg-4 col-xs-12 wow animated fadeInRight" style="margin-top: 30px;">
+                                    <div class="card align-middle">
+                                        <img class="card-img-top" src="./assets/developer-carousel-2.JPEG" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h3 class="card-title">
+                                                <strong>Speaker</strong>
+                                            </h3>
+                                            <h5>
+                                                <strong>Blockchain EDU Network</strong>
+                                            </h5>
+                                            <div class="card-text">
+                                                At BEN, we thrive to bring in students into the world of Blockchain. Also, 
+                                                making sure that students have a seemless experience while learning it. 
+                                            </div>
+                                            <div class="card-footer" style="border-top: 0px; background-color: white">
+                                                <a class="btn btn-purple" href="https://blockchainedu.org">Visit</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div> -->
-        </div>
-        <!-- Navigation Bar -->
 
-        
-
-        <!-- Landing Page -->
-        <!-- <div class="container-fluid">
-            <div class="row">
-                <div class="offset-lg-1 col-lg-8" style="margin-right: -0.95rem; margin-top: 200px; margin-bottom: 200px">
-                    <blockquote class="blockquote">
-                        <p class="display-2">
-                            For I learned, I failed,
-                            <br>
-                            For I experienced, I scaled.
-                        </p>
-                        <footer class="blockquote-footer offset-md-1">mychewcents</footer>
-                    </blockquote>
+                <!-- Traveler Section -->
+                <div class="row smooth-edges" id="skew_outer_2">
+                    <div class="mask rgba-white-light" style="padding: 0px; width: 100%;">
+                        <div class="offset-lg-2 col-lg-8" id="skew_inner_2">
+                            <div class="col-md-12 z-depth-3 wow animated fadeInDown" style="padding: 0px">
+                                <div class="view">
+                                    <img src="./assets/travel-blog-header-copy.jpeg" class="img-fluid" alt="placeholder">
+                                    <div class="mask flex-center rgba-black-light" style="padding: 0px; width: 100%; height: 100%;">
+                                        <p class="display-4 text-white">
+                                            <strong>Traveler</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <!-- San Francisco -->
+                                <div class="col-lg-4 col-xs-12 wow animated fadeInLeft" style="margin-top: 30px;">
+                                    <div class="card align-middle">
+                                        <img class="card-img-top" src="./assets/travel-carousel-2.JPG" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h3 class="card-title">
+                                                <strong>San Francisco, USA</strong>
+                                            </h3>
+                                            <h5>
+                                                <strong>Techy and Soothing</strong>
+                                            </h5>
+                                            <div class="card-text">
+                                                Considered as one of the best places to work, it is home to some of the
+                                                best landscape views. You'd enjoy your work with nature beside you.
+                                            </div>
+                                            <div class="card-footer" style="border-top: 0px; background-color: white">
+                                                <a class="btn btn-purple">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Sikkim -->
+                                <div class="col-lg-4 col-xs-12 wow animated fadeInUp" style="margin-top: 30px;">
+                                    <div class="card align-middle">
+                                        <img class="card-img-top" src="./assets/travel-carousel-0.JPG" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h3 class="card-title">
+                                                <strong>Sikkim, India</strong>
+                                            </h3>
+                                            <h5>
+                                                <strong>Serene and Pristine</strong>
+                                            </h5>
+                                            <div class="card-text">
+                                                Away from all the city noise and cosmetics, anyone would fall in love 
+                                                with the pristine forests, mountains and ice that covers this place.
+                                            </div>
+                                            <div class="card-footer" style="border-top: 0px; background-color: white">
+                                                <a class="btn btn-purple">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Mulyangiri -->
+                                <div class="col-lg-4 col-xs-12 wow animated fadeInRight" style="margin-top: 30px;">
+                                    <div class="card align-middle">
+                                        <img class="card-img-top" src="./assets/travel-carousel-1.JPG" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h3 class="card-title">
+                                                <strong>Mulyangiri, India</strong>
+                                            </h3>
+                                            <h5>
+                                                <strong>Quiet and Picturesque</strong>
+                                            </h5>
+                                            <div class="card-text">
+                                                Housing one of the highest peaks in Western Ghats of India, the place
+                                                has an aura of quietness. You could hear birds more than humans.
+                                            </div>
+                                            <div class="card-footer" style="border-top: 0px; background-color: white">
+                                                <a class="btn btn-purple">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col background_black" style="margin-right: 1.95rem">
-                    <div class="row justify-content-md-center align-middle">
-                        <div class="col-md-auto" style="padding-top: 150px;">
-                            <img src="./assets/profile_square.JPG" class="rounded-circle" style="width: 300px; height: 300px;">
+
+                <!-- Writer Section -->
+                <div class="row smooth-edges" id="skew_outer_3">
+                    <div class="mask rgba-white-light" style="padding: 0px; width: 100%;">
+                        <div class="offset-lg-2 col-lg-8" id="skew_inner_3">
+                            <div class="col-md-12 z-depth-3 wow animated fadeInDown" style="padding: 0px">
+                                <div class="view">
+                                    <img src="./assets/writer-blog-header.jpg" class="img-fluid" alt="placeholder">
+                                    <div class="mask flex-center rgba-black-light" style="padding: 0px; width: 100%; height: 100%;">
+                                        <p class="display-4 text-white">
+                                            <strong>Writer</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <!-- Poems -->
+                                <div class="col-lg-4 col-xs-12 wow animted fadeInLeft" style="margin-top: 30px;">
+                                    <div class="card align-middle">
+                                        <img class="card-img-top" src="./assets/writer-carousel-1.JPG" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h3 class="card-title">
+                                                <strong>Poems</strong>
+                                            </h3>
+                                            <h5>
+                                                <strong>I Help</strong>
+                                            </h5>
+                                            <div class="card-text">
+                                                Started recently, it is about a Guy trying to help a Girl who has gone
+                                                into Depression for the incidents and accidents she has been through.
+                                            </div>
+                                            <div class="card-footer" style="border-top: 0px; background-color: white">
+                                                <a class="btn btn-purple">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Experiences -->
+                                <div class="col-lg-4 col-xs-12 wow animted fadeInUp" style="margin-top: 30px;">
+                                    <div class="card align-middle">
+                                        <img class="card-img-top" src="./assets/writer-carousel-0.JPG" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h3 class="card-title">
+                                                <strong>Experiences</strong>
+                                            </h3>
+                                            <h5>
+                                                <strong>I Travel</strong>
+                                            </h5>
+                                            <div class="card-text">
+                                                Every trip I go on, I try to learn something from it. Maybe Life, Maybe 
+                                                a lesson. Because every experience shapes our today and tomorrow.
+                                            </div>
+                                            <div class="card-footer" style="border-top: 0px; background-color: white">
+                                                <a class="btn btn-purple">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Quotes -->
+                                <div class="col-lg-4 col-xs-12 wow animted fadeInRight" style="margin-top: 30px;">
+                                    <div class="card align-middle">
+                                        <img class="card-img-top" src="./assets/writer-carousel-2.JPG" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h3 class="card-title">
+                                                <strong>Quotes</strong>
+                                            </h3>
+                                            <h5>
+                                                <strong>I Feel</strong>
+                                            </h5>
+                                            <div class="card-text">
+                                                Not about my life, but about others. This helps me understand the
+                                                functioning of Life and People. 
+                                                <br />
+                                                Helpful. Insightful. Deep.
+                                            </div>
+                                            <div class="card-footer" style="border-top: 0px; background-color: white">
+                                                <a class="btn btn-purple">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Footer -->
+                <div class="row smooth-edges" id="footer_outer_main" style="height: 100px; background-color: black">
+                    <div class="col-md-12">
+                        <div class="flex-center">
+                            <a class="fb-ic" href="https://facebook.com/mychewcents" target="_blank">
+                                <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <a class="tw-ic" href="https://twitter.com/mychewcents" target="_blank">
+                                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <a class="li-ic" href="https://linkedin.com/in/mychewcents" target="_blank">
+                                <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <a class="ins-ic" href="https://instagram.com/mychewcents" target="_blank">
+                                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <a class="ins-ic" href="https://medium.com/@mychewcents" target="_blank">
+                                <i class="fab fa-medium-m fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <a class="ins-ic" href="mailto: akarsh@mychewcents.me">
+                                <i class="far fa-envelope  fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> -->
-
-        <!-- Footer -->
+        </div>
         
-
+        <script src="./index.js"></script>
     </body>
 </html>
