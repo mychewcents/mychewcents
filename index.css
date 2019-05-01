@@ -1,3 +1,310 @@
+/* Static v0.2 */
+#main_div {
+
+}
+
+#landing_contents {
+    position: absolute;
+    bottom: 83px;
+    width: 100%;
+}
+
+#landing_main{
+    min-height: 550px;
+    height: 90%;
+}
+
+#landing_name{
+    padding: 0px;
+    background-color: #233775;
+    color: #e5e3fa;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+#landing_pic {
+    padding: 0px;
+    width: 50%;
+    /* width: 100%; */
+    min-height: 550px;
+    height: 90%;
+    /* background-image: url("./assets/landing-cover-0-copy.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: bottom right; */
+}
+
+#my9to5{
+    margin-top: -18px;
+    color: #ebf1fa;
+    font-size: 120px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+}
+
+#names {
+    font-size: 51px;
+}
+
+#social_links {
+    font-size: 17px;
+    margin-top: 21px;
+}
+
+#titles {
+    margin-top: 34px;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+#work_main {
+    height: 372px;
+    overflow: hidden;
+}
+
+#writer{
+    margin-top: -12px;
+    color: #4b4052;
+    font-size: 120px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+}
+
+#writer_main {
+    height: 372px;
+    overflow: hidden;
+    background-color: #332a39;
+}
+
+#travel{
+    margin-top: -12px;
+    color: #ebf1fa;
+    font-size: 120px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+}
+
+#travel_main {
+    height: 372px;
+    overflow: hidden;
+}
+
+/* Classes */
+.fjallaOne {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.openSans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Media Queries */
+@media (min-width: 1440px) {
+    #landing_contents {
+        bottom: 120px;
+    }
+    
+    #landing_main {
+        min-height: 800px;
+        height: 90%;
+    }
+
+    #landing_pic {
+        min-height: 800px;
+        height: 90%;
+    }
+
+    #my9to5 {
+        margin-top: -27px;
+        margin-left: 70px;
+        color: #ebf1fa;
+        font-size: 174px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 4.6px;
+    }
+
+    #names {
+        font-size: 74px;
+    }
+
+    #social_links {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    #titles {
+        margin-top: 50px;
+        font-size: 24px;
+    }
+
+    #work_main {
+        height: 540px;
+    }
+
+    #work_subtitle{
+        color: #2a2b40;
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.6px;
+    }
+
+    #work_desc {
+        color: #555673;
+        margin-top: 50px;
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+
+    #work_title{
+        margin-top: 192px;
+        color: #2a2b40;
+        font-size: 64px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+
+    #work_timeline {
+        padding-left: 0px;
+    }
+
+    #writer_main {
+        height: 540px;
+    }
+
+    #writer_subtitle{
+        color: #e5e3fa;
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.6px;
+    }
+
+    #writer_desc {
+        color: #e5e3fa;
+        margin-top: 50px;
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+
+    #writer_title{
+        margin-top: 192px;
+        color: #e5e3fa;
+        font-size: 64px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+
+    #writer_timeline {
+        padding-left: 0px;
+    }
+
+    #writer {
+        margin-top: -17px;
+        margin-left: 70px;
+        color: #4b4052;
+        font-size: 174px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 4.6px;
+    }
+
+    #travel_main {
+        height: 540px;
+    }
+
+    #travel_subtitle{
+        color: #2a2b40;
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.6px;
+    }
+
+    #travel_desc {
+        color: #2a2b40;
+        margin-top: 50px;
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+
+    #travel_title{
+        /* margin-top: 192px; */
+        color: #2a2b40;
+        font-size: 64px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+
+    #travel {
+        margin-top: -17px;
+        margin-left: 70px;
+        color: #ebf1fa;
+        font-size: 174px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 4.6px;
+    }
+}
+
+
+
+
+/* Version 0.1 */
 #landing_outer_main {
     /* min-height: 800px; */
 }
@@ -189,6 +496,3 @@
     font-family: 'Lobster', cursive;
 }
 
-.oswald {
-  font-family: 'Oswald', sans-serif;
-}
