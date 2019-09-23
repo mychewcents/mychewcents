@@ -1,23 +1,14 @@
 import React from "react";
+import { Avatar } from "antd";
 
 const ImageContainer = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        overflowX: "hidden",
-        justifyContent: "flex-end",
-        backgroundColor: "#233775"
-      }}
-    >
-      <img
-        src="https://s3.amazonaws.com/mychewcents.github.io/landing-image.jpg"
-        alt="landing"
-        style={{
-          height: window.innerHeight
-        }}
-      />
-    </div>
+    <Avatar
+      src="https://s3.amazonaws.com/mychewcents.github.io/landing-image.jpg"
+      alt="landing"
+      size={400}
+      shape="square"
+    />
   );
 };
 
