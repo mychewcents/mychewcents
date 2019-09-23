@@ -2,10 +2,20 @@ import React from "react";
 
 const ImageContainer = () => {
   return (
-    <div className="imagecontainer-landing-pic--center-center">
+    <div
+      style={{
+        display: "flex",
+        overflowX: "hidden",
+        justifyContent: "flex-end",
+        backgroundColor: "#233775"
+      }}
+    >
       <img
         src="https://s3.amazonaws.com/mychewcents.github.io/landing-image.jpg"
-        alt="landing-image"
+        alt="landing"
+        style={{
+          height: window.innerHeight
+        }}
       />
     </div>
   );
