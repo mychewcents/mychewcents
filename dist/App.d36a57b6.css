@@ -1,0 +1,56 @@
+.links--default {
+  padding: 0px;
+  background-color: #233775;
+  color: #e5e3fa;
+  min-height: 754px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.links-dot--styling {
+  display: inline-block;
+  padding: 0px 18px;
+}
+.links-titles--styling {
+  margin-top: -70px;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+.links-name--font {
+  font-size: 51px;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.links-social--styling {
+  font-size: 24px;
+  height: 24px;
+  margin-top: -110px;
+}
+
+.links-icon--styling {
+  color: #e5e3fa;
+  font-size: 24px;
+}
+
+.links-image--margin-top {
+  margin-top: 50px;
+}
+
+.links-content--bottom-align {
+  position: absolute;
+  bottom: 120px;
+  width: 100%;
+}
+
+.links-content--center-align {
+  display: flex;
+  justify-content: center;
+}
+
+
+/*# sourceMappingURL=/App.d36a57b6.css.map */
