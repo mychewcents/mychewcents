@@ -6,7 +6,7 @@ import { Links } from "../constants";
 
 const LinksContainer = () => {
   return (
-    <div className="links--default">
+    <div className="links--default" style={{ height: window.innerHeight }}>
       <Row className="links-content--bottom-align">
         <Col span={18} offset={3}>
           <div className="links-name--font">Hey! I&apos;m Akarsh Agarwal</div>
