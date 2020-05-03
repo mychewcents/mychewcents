@@ -1,0 +1,22 @@
+@import '../../../global.scss';
+
+.expertize-home {
+  padding: 40px;
+
+  .expertize-title-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .expertize-title {
+    padding: 10px 0px;
+    font-size: 30px;
+    color: $main-text-color;
+    font-weight: 700;
+  }
+
+  .expertize-cards-view-container {
+    display: flex;
+    justify-content: center;
+  }
+}

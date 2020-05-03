@@ -1,10 +1,11 @@
 import * as React from 'react';
 
-import './expertize.scss';
+import './tech-stack.scss';
 import { Row, Col, Card } from 'antd';
 import MenuTab from './menu-tab';
+import Stack from './stack';
 
-const Expertize = () => {
+const TechStack = () => {
   return (
     <Row>
       <Col span={24} className='expertize-home'>
@@ -13,14 +14,14 @@ const Expertize = () => {
             <div className='expertize-title'>Core Competencies</div>
           </Col>
         </Row>
-        <MenuTab />
+        {/* <MenuTab /> */}
         <Row>
           <Col
             xs={{ span: 16, offset: 4 }}
             xl={{ span: 8, offset: 0 }}
             className='expertize-cards-view-container'
           >
-            <Card>Hello</Card>
+            <Stack />
           </Col>
           <Col
             xs={{ span: 16, offset: 4 }}
@@ -42,4 +43,4 @@ const Expertize = () => {
   );
 };
 
-export default Expertize;
+export default TechStack;
