@@ -21,7 +21,8 @@
 
   .footer-links {
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
+    padding-top: 17px;
   }
 }
 .footer-copyright {
@@ -47,7 +48,6 @@
 
     .footer-links {
       padding-top: 15px;
-      justify-content: center;
     }
 
     .footer-title {
