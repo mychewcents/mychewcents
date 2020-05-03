@@ -1,4 +1,4 @@
-export const Links = [
+const LINKS = [
   {
     type: 'twitter',
     url: 'https://twitter.com/mychewcents',
@@ -20,3 +20,20 @@ export const Links = [
     url: 'mailto: akarsh@mychewcents.me',
   },
 ];
+
+const CARD_DATA = [
+  {
+    title: 'Solutions Architect',
+    description: '',
+  },
+  {
+    title: 'Blockchain Developer',
+    description: '',
+  },
+  {
+    title: 'Full-Stack Developer',
+    description: '',
+  },
+];
+
+export { LINKS };

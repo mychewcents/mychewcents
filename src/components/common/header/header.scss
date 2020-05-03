@@ -1,5 +1,28 @@
 @import '../../../global.scss';
 
 .header {
-  background-color: #03498a;
+  padding: 40px 0px;
+
+  .header-components {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-name {
+    font-size: 30px;
+    font-weight: 700;
+    color: $main-text-color;
+  }
+
+  .header-links {
+    font-size: 18px;
+    display: flex;
+
+    .header-links-text {
+      color: $common-black;
+      font-weight: 600;
+      padding: 20px;
+    }
+  }
 }

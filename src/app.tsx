@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { render } from 'react-dom';
 import { Router, Redirect } from '@reach/router';
 
@@ -11,7 +11,6 @@ const App: React.FC = () => {
         <Home path='/home' />
         <Redirect from='*' to='/home' noThrow />
       </Router>
-      {/* <IntroductionContainer /> */}
     </React.StrictMode>
   );
 };

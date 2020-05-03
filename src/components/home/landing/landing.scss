@@ -1,0 +1,23 @@
+@import '../../../global.scss';
+
+.home-landing {
+  color: $common-black;
+  background-color: $main-text-color;
+
+  .landing-text {
+    padding: 100px 0px;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1.25;
+  }
+
+  .landing-image {
+    display: flex;
+    justify-content: center;
+
+    img {
+      height: 300px;
+      border-radius: 150px;
+    }
+  }
+}
