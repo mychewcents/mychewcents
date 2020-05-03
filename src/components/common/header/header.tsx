@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <Col className='header-components'>
         <div className='header-name'>Akarsh Agarwal</div>
         <div className='header-links'>
-          <a href='#expertises'>
+          {/* <a href='#expertises'>
             <div className='header-links-text'>Expertises</div>
           </a>
           <a href='#history'>
@@ -17,7 +17,7 @@ const Header: React.FC = () => {
           </a>
           <a href='#projects'>
             <div className='header-links-text'>Projects</div>
-          </a>
+          </a> */}
           <a href='#contact-me'>
             <div className='header-links-text'>Contact Me</div>
           </a>

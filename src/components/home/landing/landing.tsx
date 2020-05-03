@@ -5,18 +5,19 @@ import { Row, Col, Avatar } from 'antd';
 
 const Landing = () => {
   return (
-    <div className='home-landing'>
-      <Row>
-        <Col span={16}>
-          <div className='landing-text'>
-            I design and develop <br /> "Privacy First" applications!
-          </div>
-        </Col>
-        <Col span={8} className='landing-image'>
+    <Row type='flex' className='home-landing'>
+      <Col xs={{ span: 24 }} xl={{ span: 14 }}>
+        <div className='landing-text'>
+          I design and develop <br className='landing-breakline-display' />
+          "Privacy First" applications!
+        </div>
+      </Col>
+      <Col xs={{ span: 24 }} xl={{ span: 10 }}>
+        <div className='landing-image'>
           <img src='https://s3.amazonaws.com/mychewcents.github.io/landing-image.jpg' />
-        </Col>
-      </Row>
-    </div>
+        </div>
+      </Col>
+    </Row>
   );
 };
 
