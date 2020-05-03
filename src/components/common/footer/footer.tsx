@@ -34,7 +34,7 @@ const Footer = () => {
         <Col span={24}>
           <div className='footer-copyright'>
             <Icon type='copyright' />
-            <div className='copyright-text'>All rights reserved.</div>
+            <div className='copyright-text'>2020 All rights reserved.</div>
           </div>
         </Col>
       </Row>

@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <Col className='header-components'>
         <div className='header-name'>Akarsh Agarwal</div>
         <div className='header-links'>
-          <div className='header-links-text'>Hey Everyone!</div>
+          <div className='header-links-text'>Hey! Everyone!</div>
         </div>
       </Col>
     </Row>
