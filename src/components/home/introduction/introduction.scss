@@ -1,0 +1,25 @@
+@import '../../../global.scss';
+
+.introduction {
+  background-color: $ice-blue2;
+  padding: 40px;
+
+  .introduction-title {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 30px 0px;
+    font-size: 40px;
+    color: $main-text-color;
+    font-weight: 700;
+  }
+
+  .introduction-desc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 24px;
+    color: $blue-grey;
+    font-weight: 600;
+  }
+}
