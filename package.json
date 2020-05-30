@@ -4,16 +4,17 @@
   "description": "This is the main website design for the https://mychewcents.me",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build --out-dir docs src/index.html",
-    "dev:mock": "cross-env PET_MOCK=mock parcel src/index.html",
-    "format": "prettier \"src/**/*.{js,html}\" --write",
-    "lint": "eslint \"src/**/*.{js, jsx}\" --quiet",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:css": "postcss -w src/assets/tailwind.css -o src/assets/main.generated.css",
+    "build:css": "postcss src/assets/tailwind.css -o src/assets/main.generated.css",
+    "dev:start": "parcel src/index.html",
+    "dev:build": "parcel build --out-dir docs src/index.html",
+    "start": "run-p watch:css dev:start",
+    "build": "run-p build:css dev:build"
   },
   "author": "Akarsh Agarwal",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^9.8.0",
     "babel-eslint": "^10.1.0",
     "cross-env": "^6.0.3",
     "eslint": "^6.8.0",
@@ -22,16 +23,19 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.1",
+    "npm-run-all": "^4.1.5",
     "parcel-bundler": "^1.12.4",
+    "postcss-cli": "^7.1.1",
     "prettier": "^1.19.1",
     "sass": "^1.26.5",
+    "tailwindcss": "^1.4.6",
     "typescript": "^3.8.3"
   },
   "dependencies": {
     "@reach/router": "^1.3.3",
+    "@tailwindcss/ui": "^0.3.0",
     "@types/reach__router": "^1.3.5",
     "@types/react-dom": "^16.9.7",
-    "antd": "^3.26.16",
     "components": "^0.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
